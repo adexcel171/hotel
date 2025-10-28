@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Tee Dreams Suite & Apartment Hotel - Luxury Boutique Experience
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="nav-container">
+        <div class="logo">TEE DREAMS</div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#rooms">Rooms</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#amenities">Amenities</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Tee Dreams Suite & Apartment Hotel</h1>
+        <p>
+          Experience luxury and comfort in the heart of Lagos. Your perfect
+          boutique hotel escape awaits.
+        </p>
+        <div class="cta-buttons">
+          <a href="#rooms" class="btn btn-primary">
+            <i class="fas fa-bed"></i> Explore Rooms
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <i class="fas fa-calendar-check"></i> Book Now
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge"
+            >Discover Tee Dreams Suite & Apartment</span
+          >
+          <h2 class="section-title">Boutique Luxury Redefined</h2>
+          <p class="section-description">
+            A perfect blend of modern comfort and personalized hospitality
+          </p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Your Home Away From Home</h3>
+            <p>
+              Tee Dreams Suite & Apartment Hotel is a charming boutique hotel
+              nestled in the vibrant heart of Lagos. We pride ourselves on
+              offering intimate, personalized service that makes every guest
+              feel like family.
+            </p>
+            <p>
+              Our carefully designed rooms combine contemporary aesthetics with
+              essential comforts, ensuring your stay is both memorable and
+              relaxing. Whether you're here for business or leisure, we've
+              created the perfect sanctuary for you.
+            </p>
+            <a
+              href="#rooms"
+              class="btn btn-primary"
+              style="display: inline-flex; margin-top: 1rem"
+              >View Our Rooms</a
+            >
+          </div>
+          <div class="about-image">
+            <img src="./img//palor.jpg" alt="Hotel Interior" />
+          </div>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-concierge-bell"></i>
+            </div>
+            <h4>24/7 Service</h4>
+            <p>Round-the-clock reception and assistance for all your needs</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-wifi"></i>
+            </div>
+            <h4>Free WiFi</h4>
+            <p>High-speed internet access throughout the property</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-parking"></i>
+            </div>
+            <h4>Secure Parking</h4>
+            <p>Complimentary parking for all guests</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <h4>Restaurant & Bar</h4>
+            <p>Delicious local and international cuisine</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="rooms">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Accommodation</span>
+          <h2 class="section-title">Our Rooms & Suites</h2>
+          <p class="section-description">
+            Choose from our selection of beautifully designed rooms
+          </p>
+        </div>
+        <div class="rooms-grid">
+          <div class="room-card" data-room="standard">
+            <div class="room-image">
+              <img src="./img/room1.jpg" alt="Standard Room" />
+              <div class="room-badge">Most Popular</div>
+            </div>
+            <div class="room-content">
+              <div class="room-header">
+                <h3 class="room-title">Standard Room</h3>
+                <div class="room-price">
+                  <div class="amount">₦25,000</div>
+                  <div class="period">per night</div>
+                </div>
+              </div>
+              <div class="room-features">
+                <div class="room-feature">
+                  <i class="fas fa-bed"></i>
+                  <span>Queen Bed</span>
+                </div>
+                <div class="room-feature">
+                  <i class="fas fa-users"></i>
+                  <span>2 Guests</span>
+                </div>
+                <div class="room-feature">
+                  <i class="fas fa-wifi"></i>
+                  <span>Free WiFi</span>
+                </div>
+              </div>
+              <p class="room-description">
+                Cozy and comfortable room perfect for couples or solo travelers.
+                Features modern amenities and a relaxing ambiance.
+              </p>
+              <button class="btn btn-primary" style="width: 100%">
+                <i class="fas fa-eye"></i> View Details & Book
+              </button>
+            </div>
+          </div>
+
+          <div class="room-card" data-room="deluxe">
+            <div class="room-image">
+              <img src="./img/room2.jpg" alt="Deluxe Room" />
+            </div>
+            <div class="room-content">
+              <div class="room-header">
+                <h3 class="room-title">Deluxe Room</h3>
+                <div class="room-price">
+                  <div class="amount">₦30,000</div>
+                  <div class="period">per night</div>
+                </div>
+              </div>
+              <div class="room-features">
+                <div class="room-feature">
+                  <i class="fas fa-bed"></i>
+                  <span>King Bed</span>
+                </div>
+                <div class="room-feature">
+                  <i class="fas fa-users"></i>
+                  <span>2 Guests</span>
+                </div>
+                <div class="room-feature">
+                  <i class="fas fa-tv"></i>
+                  <span>Smart TV</span>
+                </div>
+              </div>
+              <p class="room-description">
+                Spacious room with premium furnishings, work desk, and upgraded
+                bathroom amenities. Ideal for extended stays.
+              </p>
+              <button class="btn btn-primary" style="width: 100%">
+                <i class="fas fa-eye"></i> View Details & Book
+              </button>
+            </div>
+          </div>
+
+          <div class="room-card" data-room="executive">
+            <div class="room-image">
+              <img src="./img/room3.jpg" alt="Executive Suite" />
+              <div class="room-badge">Premium</div>
+            </div>
+            <div class="room-content">
+              <div class="room-header">
+                <h3 class="room-title">Executive Suite</h3>
+                <div class="room-price">
+                  <div class="amount">₦30,000</div>
+                  <div class="period">per night</div>
+                </div>
+              </div>
+              <div class="room-features">
+                <div class="room-feature">
+                  <i class="fas fa-bed"></i>
+                  <span>King Bed</span>
+                </div>
+                <div class="room-feature">
+                  <i class="fas fa-users"></i>
+                  <span>2-3 Guests</span>
+                </div>
+                <div class="room-feature">
+                  <i class="fas fa-couch"></i>
+                  <span>Living Area</span>
+                </div>
+              </div>
+              <p class="room-description">
+                Our finest accommodation featuring separate living area, luxury
+                bathroom with bathtub, and stunning city views.
+              </p>
+              <button class="btn btn-primary" style="width: 100%">
+                <i class="fas fa-eye"></i> View Details & Book
+              </button>
+            </div>
+          </div>
+
+          <div class="room-card" data-room="family">
+            <div class="room-image">
+              <img src="./img/room4.jpg" alt="Family Room" />
+            </div>
+            <div class="room-content">
+              <div class="room-header">
+                <h3 class="room-title">Family Room</h3>
+                <div class="room-price">
+                  <div class="amount">₦45,000</div>
+                  <div class="period">per night</div>
+                </div>
+              </div>
+              <div class="room-features">
+                <div class="room-feature">
+                  <i class="fas fa-bed"></i>
+                  <span>2 Queen Beds</span>
+                </div>
+                <div class="room-feature">
+                  <i class="fas fa-users"></i>
+                  <span>4 Guests</span>
+                </div>
+                <div class="room-feature">
+                  <i class="fas fa-child"></i>
+                  <span>Kid Friendly</span>
+                </div>
+              </div>
+              <p class="room-description">
+                Perfect for families! Spacious room with two queen beds, extra
+                seating area, and child-friendly amenities.
+              </p>
+              <button class="btn btn-primary" style="width: 100%">
+                <i class="fas fa-eye"></i> View Details & Book
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Visual Tour</span>
+          <h2 class="section-title">Gallery</h2>
+          <p class="section-description">
+            Explore our beautiful spaces and facilities
+          </p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="./img/palor2.jpg" alt="Hotel Lobby" />
+            <div class="gallery-overlay">
+              <h4>Elegant Lobby</h4>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./img/club (1).jpg" alt="Restaurant" />
+            <div class="gallery-overlay">
+              <!-- <h4>Restaurant</h4> -->
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./img/club (2) - Copy.jpg" alt="Bar Area" />
+            <div class="gallery-overlay">
+              <!-- <h4>Bar Lounge</h4> -->
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./img/club (6).jpg" alt="Luxury Room" />
+            <div class="gallery-overlay">
+              <!-- <h4>Luxury Suite</h4> -->
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./img/club (3) - Copy.jpg" alt="Bathroom" />
+            <div class="gallery-overlay">
+              <!-- <h4>Modern Bathroom</h4> -->
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="./img/club (9) - Copy.jpg" alt="Dining" />
+            <div class="gallery-overlay">
+              <!-- <h4>Breakfast Area</h4> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="amenities">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Facilities</span>
+          <h2 class="section-title">Hotel Amenities</h2>
+          <p class="section-description">
+            Everything you need for a comfortable stay
+          </p>
+        </div>
+        <div class="amenities-grid">
+          <!-- <div class="amenity-item">
+            <i class="fas fa-wifi"></i>
+            <h4>Free WiFi</h4>
+          </div> -->
+          <!-- <div class="amenity-item">
+            <i class="fas fa-parking"></i>
+            <h4>Parking</h4>
+          </div> -->
+          <div class="amenity-item">
+            <i class="fas fa-utensils"></i>
+            <h4>Restaurant</h4>
+          </div>
+          <div class="amenity-item">
+            <i class="fas fa-cocktail"></i>
+            <h4>Bar</h4>
+          </div>
+          <div class="amenity-item">
+            <i class="fas fa-concierge-bell"></i>
+            <h4>Room Service</h4>
+          </div>
+          <div class="amenity-item">
+            <i class="fas fa-wind"></i>
+            <h4>Air Conditioning</h4>
+          </div>
+          <div class="amenity-item">
+            <i class="fas fa-tv"></i>
+            <h4>Smart TV</h4>
+          </div>
+          <!-- <div class="amenity-item">
+            <i class="fas fa-lock"></i>
+            <h4>Safe Deposit</h4>
+          </div> -->
+          <div class="amenity-item">
+            <i class="fas fa-shower"></i>
+            <h4>Hot Shower</h4>
+          </div>
+          <div class="amenity-item">
+            <i class="fas fa-broom"></i>
+            <h4>Housekeeping</h4>
+          </div>
+          <!-- <div class="amenity-item">
+            <i class="fas fa-coffee"></i>
+            <h4>Breakfast</h4>
+          </div> -->
+          <div class="amenity-item">
+            <i class="fas fa-shield-alt"></i>
+            <h4>24/7 Security</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Reviews</span>
+          <h2 class="section-title">What Our Guests Say</h2>
+          <p class="section-description">Real experiences from real guests</p>
+        </div>
+        <div class="testimonial-slider">
+          <div class="testimonial-card">
+            <p class="testimonial-text">
+              "Amazing experience! The staff were incredibly friendly and the
+              rooms were spotless. Tee Dreams Suite & Apartment Hotel exceeded
+              all my expectations. Will definitely return!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">AD</div>
+              <div class="author-info">
+                <h5>Adebayo Johnson</h5>
+                <p>Business Traveler</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-dots">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Get In Touch</span>
+          <h2 class="section-title">Contact Us</h2>
+          <p class="section-description">
+            We're here to help with your booking and inquiries
+          </p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h4>Phone</h4>
+                <p><a href="tel:+2348131616988">+234 813 161 6988</a></p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <div>
+                <h4>WhatsApp</h4>
+                <p>
+                  <a href="https://wa.me/2348131616988" target="_blank"
+                    >Chat with us</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h4>Location</h4>
+                <p>Lagos, Nigeria</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div>
+                <h4>Reception Hours</h4>
+                <p>24/7 - Always Available</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <h3 style="margin-bottom: 2rem; color: var(--primary)">
+              Send us a Message
+            </h3>
+            <form id="contactForm">
+              <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" name="name" required />
+              </div>
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label>Phone Number</label>
+                <input type="tel" name="phone" required />
+              </div>
+              <div class="form-group">
+                <label>Message</label>
+                <textarea name="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%">
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>TEE DREAMS SUITE & APARTMENT HOTEL</h3>
+          <p>
+            Your trusted boutique hotel in the heart of Abuja. Experience
+            comfort, luxury, and exceptional service.
+          </p>
+          <div class="social-links" style="margin-top: 1.5rem">
+            <a href="javascript:void(0);" target="_blank" aria-label="TikTok">
+              <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="javascript:void(0)" target="_blank" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="javascript:void(0)" target="_blank" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#rooms">Rooms & Rates</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#amenities">Amenities</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Room Categories</h3>
+          <ul class="footer-links">
+            <li><a href="#rooms">Standard Room</a></li>
+            <li><a href="#rooms">Deluxe Room</a></li>
+            <li><a href="#rooms">Executive Suite</a></li>
+            <li><a href="#rooms">Family Room</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <ul class="footer-links">
+            <li><i class="fas fa-phone"></i> +234 813 161 6988</li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i> Asokoro, Abuja, Nigeria
+            </li>
+            <li><i class="fas fa-clock"></i> 24/7 Service</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 Tee Dreams Suite & Apartment Hotel. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Room Details Modal -->
+    <div id="roomModal" class="modal">
+      <div class="modal-content">
+        <button class="modal-close" id="modalClose">
+          <i class="fas fa-times"></i>
+        </button>
+        <img id="modalImage" class="modal-image" src="" alt="Room" />
+        <div class="modal-body">
+          <div class="modal-header">
+            <h2 class="modal-title" id="modalTitle"></h2>
+            <div class="modal-price">
+              <div class="amount" id="modalAmount"></div>
+              <div class="period">per night</div>
+            </div>
+          </div>
+          <p class="modal-description" id="modalDescription"></p>
+          <div class="modal-features" id="modalFeatures"></div>
+          <div class="booking-info">
+            <h4><i class="fas fa-calendar-check"></i> Ready to Book?</h4>
+            <p style="margin: 1rem 0; color: var(--gray)">
+              To secure your reservation, please contact us via WhatsApp or make
+              a payment to the account below:
+            </p>
+            <div class="payment-details">
+              <div class="payment-row">
+                <span class="payment-label">Account Name:</span>
+                <span class="payment-value"
+                  >Tee Dreams Suite & Apartment Hotel</span
+                >
+              </div>
+              <div class="payment-row">
+                <span class="payment-label">Bank:</span>
+                <span class="payment-value">Zenith Bank</span>
+              </div>
+              <div class="payment-row">
+                <span class="payment-label">Account Number:</span>
+                <span class="payment-value">2084333955</span>
+              </div>
+            </div>
+            <p style="margin: 1.5rem 0; color: var(--gray); font-size: 0.95rem">
+              After payment, send your proof of payment along with booking
+              details (check-in date, room type, duration) via WhatsApp to
+              confirm your reservation.
+            </p>
+            <a
+              href="https://wa.me/2348131616988?text=Hi%20Tee Dreams Suite & Apartment,%20I%27d%20like%20to%20book%20a%20room"
+              target="_blank"
+              class="btn btn-primary"
+              style="
+                width: 100%;
+                justify-content: center;
+                font-size: 1.1rem;
+                padding: 1.2rem;
+              "
+            >
+              <i class="fab fa-whatsapp"></i> Book via WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
