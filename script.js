@@ -22,7 +22,7 @@ const roomsData = {
     price: "₦35,000",
     image: "./img/room2.jpg",
     description:
-      "Experience enhanced comfort in our Deluxe Room, featuring upgraded amenities and more space. This room boasts a luxurious king-size bed, premium linens, a spacious work area, and a modern bathroom with upgraded fixtures. Perfect for guests who appreciate the finer details and extra space to relax after a busy day exploring Lagos.",
+      "Experience enhanced comfort in our Deluxe Room, featuring upgraded amenities and more space. This room boasts a luxurious king-size bed, premium linens, a spacious work area, and a modern bathroom with upgraded fixtures. Perfect for guests who appreciate the finer details and extra space to relax after a busy day exploring Abuja.",
     features: [
       { icon: "bed", text: "King Size Bed" },
       { icon: "users", text: "Sleeps 2 Guests" },
@@ -169,13 +169,13 @@ const testimonials = [
     avatar: "AD",
   },
   {
-    text: "Perfect location and excellent service! The rooms are beautiful and very clean. The restaurant food was delicious. Highly recommend for anyone visiting Lagos.",
+    text: "Perfect location and excellent service! The rooms are beautiful and very clean. The restaurant food was delicious. Highly recommend for anyone visiting Abuja.",
     author: "Chioma Okafor",
     role: "Tourist",
     avatar: "CO",
   },
   {
-    text: "Best hotel experience in Lagos! The family room was spacious and comfortable. Staff went above and beyond to make our stay memorable. Five stars!",
+    text: "Best hotel experience in Abuja! The family room was spacious and comfortable. Staff went above and beyond to make our stay memorable. Five stars!",
     author: "Michael Adekunle",
     role: "Family Vacation",
     avatar: "MA",
