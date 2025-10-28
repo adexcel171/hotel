@@ -105,7 +105,7 @@ nav.scrolled {
 .hero {
   height: 100vh;
   background: linear-gradient(rgba(26, 35, 50, 0.7), rgba(26, 35, 50, 0.5)),
-    url("./img/h1\ \(2\).jpg") center/cover;
+    url("./img/h1\ \(4\).jpg") center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
